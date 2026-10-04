@@ -768,7 +768,7 @@ I'll wait for you, no matter how long it takes and while im waiting i will fix m
       slide.dataset.slideIndex = index;
       const image = document.createElement("img");
       image.className = "album-photo";
-      image.src = `ikaw%20parin%20pre/${filename}`;
+      image.src = filename;
       image.alt = `Memory ${index + 1} of ${memoryPhotos.length}`;
       image.loading = index === 0 || index === memoryPhotos.length - 1 ? "eager" : "lazy";
       const caption = document.createElement("figcaption");
